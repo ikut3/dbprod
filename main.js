@@ -4,7 +4,7 @@ var MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb://localhost/prod';
 var str = "";
 
-app.route('/').get(function(req, res)
+app.route('/database').get(function(req, res)
 
     {
         MongoClient.connect(url, function(err, db) {
