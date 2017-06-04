@@ -21,4 +21,4 @@ app.route('/database').get(function(req, res)
         });
     });
 
-var server = app.listen(3015, function() {});
+var server = app.listen(3015, 'localhost', function() {});
