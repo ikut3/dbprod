@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var MongoClient = require('mongodb').MongoClient;
-var url = 'mongodb://peaceful_swanson/dev';
+var url = 'mongodb://localhost/prod';
 var str = "";
 
 app.route('/').get(function(req, res)
